@@ -2,6 +2,7 @@ import styles from "./Header.module.css";
 import img from "../assets/img/Brasaomacau.png";
 
 export function Header() {
+  
   return (
     <header className={styles.header}>
       <div className={styles.centralContainer}>

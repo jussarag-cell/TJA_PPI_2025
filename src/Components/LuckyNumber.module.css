@@ -10,6 +10,7 @@
     font-size: 3rem;
 }
 
+
 .button {
     background-color: var(--primary-contrast-light);
     color: var(--primary-dark);
@@ -22,10 +23,12 @@
     transition: background-color 0.3s ease, transform 0.2s ease;
 }
 
+
 .button:hover {
     background-color: var(--primary-light);
     transform: scale(1.05);
 }
+
 
 .buttons {
     display: flex;

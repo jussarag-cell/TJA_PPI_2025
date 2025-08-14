@@ -2,7 +2,7 @@ import { useState } from "react";
 import styles from "./LuckyNumber.module.css";
 
 export function LuckyNumber() {
-  //REACT HOOK - useState()
+  
   const [luckyNumber, setLuckyNumber] = useState(0);
   const [array, setArray] = useState([]);
   const [message, setMessage] = useState("");
@@ -20,6 +20,7 @@ export function LuckyNumber() {
   }
 
   return (
+
     <div className={styles.container}>
       {luckyNumber ? (
         <h1>Lucky Number = {luckyNumber}</h1>
