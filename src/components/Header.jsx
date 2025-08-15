@@ -14,7 +14,6 @@ export function Header() {
       </Link>
       <Link to="/cart" className={styles.link}>
         <div className={styles.cartInfo}>
-
           <div className={styles.cartIcon}>
             <ShoppingBasket size={32} />
             {cart.length > 0 && (

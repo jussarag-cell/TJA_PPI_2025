@@ -21,10 +21,7 @@ export function Cart() {
               <p>${product.price.toFixed(2)}</p>
               <div className={styles.quantityControls}>
                 <button
-                  disabled={product.quantity <= 1}
-                  onClick={() =>
-                    updateQtyCart(product.id, product.quantity - 1)
-                  }
+
                 >
                   -
                 </button>
